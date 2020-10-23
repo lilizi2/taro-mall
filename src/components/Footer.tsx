@@ -8,9 +8,10 @@ export const Footer: React.FC<FooterProps> = () => {
   return (
     <AtTabBar
       tabList={[
-        { title: "待办事项", iconType: "bullet-list", text: "new" },
-        { title: "拍照", iconType: "camera" },
-        { title: "文件夹", iconType: "folder", text: "100", max: 99 }
+        { title: "首页", iconType: "home" },
+        { title: "点单", iconType: "shopping-bag" },
+        { title: "订单", iconType: "menu", text: "100", max: 99 },
+        { title: "我的", iconType: "user", text: "hello" }
       ]}
       onClick={() => setpage(0)}
       current={page}
