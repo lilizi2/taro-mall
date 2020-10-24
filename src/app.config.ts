@@ -18,26 +18,26 @@ export default {
       {
         pagePath: "pages/index/index",
         text: "首页",
-        iconPath: "./resource/images/home-outline.svg",
-        selectedIconPath: "./resource/images/home.svg"
+        iconPath: "./resource/images/homeU.png",
+        selectedIconPath: "./resource/images/home.png"
       },
       {
         pagePath: "pages/shop/shop",
         text: "点单",
-        iconPath: "./resource/images/bag-outline.svg",
-        selectedIconPath: "./resource/images/bag.svg"
+        iconPath: "./resource/images/milkteaU.png",
+        selectedIconPath: "./resource/images/milktea.png"
       },
       {
         pagePath: "pages/orders/orders",
         text: "订单",
-        iconPath: "./resource/images/reorder-outline.svg",
-        selectedIconPath: "./resource/images/reorder.svg"
+        iconPath: "./resource/images/listU.png",
+        selectedIconPath: "./resource/images/list.png"
       },
       {
         pagePath: "pages/me/me",
         text: "我的",
-        iconPath: "./resource/images/person-outline.svg",
-        selectedIconPath: "./resource/images/person.svg"
+        iconPath: "./resource/images/meU.png",
+        selectedIconPath: "./resource/images/me.png"
       }
     ],
     color: "#cccccc",
