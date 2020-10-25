@@ -4,25 +4,38 @@
 @import "../../custom-theme.scss";
 .main {
   background: var(--color-white);
-  height: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .selectBox {
   display: flex;
-  justify-content: space-between;
-  // flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border-radius: 1rem;
-  border: 2px solid $color-gray;
-  background: $color-white;
-  padding: 3rem;
-  margin: 1rem 2rem;
+  border: 1px solid $color-black;
+  background: $color-black;
+  margin: 1rem 1rem;
+  height: 8rem;
   .cb {
     font-size: 1rem;
-    // display: flex;
-    // align-items: center;
+    flex: 1;
+    display: flex;
     justify-content: center;
   }
   &_left {
-    border-right: 1px dashed $color-gray;
+    border-right: 1px solid $color-gray;
+  }
+}
+
+.footer {
+  display: flex;
+  &_jifen {
+    flex: 5;
+  }
+  &_erweima {
+    flex: 1;
   }
 }
