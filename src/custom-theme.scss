@@ -1,13 +1,11 @@
-* {
+View {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
 }
 
-:root {
-  --color-black: #333333;
-  --color-green: #e7fcf8;
-  --color-white: #f7f7f7;
-  --color-gray: #cccccc;
-}
+$color-black: #333333;
+$color-green: #e7fcf8;
+$color-white: #f7f7f7;
+$color-gray: #cccccc;

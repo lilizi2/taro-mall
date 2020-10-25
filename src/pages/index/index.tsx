@@ -1,6 +1,5 @@
-import { Text, View } from "@tarojs/components";
+import { View } from "@tarojs/components";
 import React from "react";
-import { AtButton } from "taro-ui";
 import "taro-ui/dist/style/components/button.scss"; // 按需引入
 import { Banner } from "../../components/Banner";
 import "./index.scss";
@@ -11,7 +10,11 @@ const index: React.FC<indexProps> = () => {
   return (
     <View className="main">
       <Banner />
-      <View>
+      <View className="selectBox">
+        <View className="selectBox_left cb">堂食</View>
+        <View className="selectBox_right cb">外卖</View>
+      </View>
+      {/* <View>
         <Text>Hello world!</Text>
         <AtButton type="primary">I need Taro UI</AtButton>
         <Text>Li UI 支持 Vue 了吗？</Text>
@@ -22,7 +25,7 @@ const index: React.FC<indexProps> = () => {
         <AtButton type="secondary" circle={true}>
           来
         </AtButton>
-      </View>
+      </View> */}
     </View>
   );
 };

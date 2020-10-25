@@ -1,8 +1,28 @@
 @import "~taro-ui/dist/style/components/tab-bar.scss";
 @import "~taro-ui/dist/style/components/badge.scss";
 @import "~taro-ui/dist/style/components/icon.scss";
-
+@import "../../custom-theme.scss";
 .main {
   background: var(--color-white);
   height: 100%;
+}
+
+.selectBox {
+  display: flex;
+  justify-content: space-between;
+  // flex-direction: row;
+  border-radius: 1rem;
+  border: 2px solid $color-gray;
+  background: $color-white;
+  padding: 3rem;
+  margin: 1rem 2rem;
+  .cb {
+    font-size: 1rem;
+    // display: flex;
+    // align-items: center;
+    justify-content: center;
+  }
+  &_left {
+    border-right: 1px dashed $color-gray;
+  }
 }
