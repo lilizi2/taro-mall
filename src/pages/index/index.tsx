@@ -9,18 +9,20 @@ interface indexProps {}
 
 const index: React.FC<indexProps> = () => {
   return (
-    <View className="index">
+    <View className="main">
       <Banner />
-      <Text>Hello world!</Text>
-      <AtButton type="primary">I need Taro UI</AtButton>
-      <Text>Li UI 支持 Vue 了吗？</Text>
-      <AtButton type="primary" circle={true}>
-        支持
-      </AtButton>
-      <Text>共建？</Text>
-      <AtButton type="secondary" circle={true}>
-        来
-      </AtButton>
+      <View>
+        <Text>Hello world!</Text>
+        <AtButton type="primary">I need Taro UI</AtButton>
+        <Text>Li UI 支持 Vue 了吗？</Text>
+        <AtButton type="primary" circle={true}>
+          支持
+        </AtButton>
+        <Text>共建？</Text>
+        <AtButton type="secondary" circle={true}>
+          来
+        </AtButton>
+      </View>
     </View>
   );
 };

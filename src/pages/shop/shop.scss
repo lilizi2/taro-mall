@@ -1,0 +1,10 @@
+@import "~taro-ui/dist/style/components/tabs.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.listLable {
+  font-size: 18px;
+  text-align: left;
+  height: 50px;
+  color: var(--color-gray);
+  box-sizing: border-box;
+}

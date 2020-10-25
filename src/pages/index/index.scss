@@ -1,3 +1,8 @@
 @import "~taro-ui/dist/style/components/tab-bar.scss";
 @import "~taro-ui/dist/style/components/badge.scss";
 @import "~taro-ui/dist/style/components/icon.scss";
+
+.main {
+  background: var(--color-white);
+  height: 100%;
+}
